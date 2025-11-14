@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>build.gradle.kts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #ebebeb;}
+.s1 { color: #54b33e;}
+.s2 { color: #ed864a;}
+</style>
+</head>
+<body bgcolor="#131314">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+build.gradle.kts</font>
+</center></td></tr></table>
+<pre><span class="s0">buildscript {</span>
+    <span class="s0">repositories {</span>
+        <span class="s0">google()</span>
+        <span class="s0">mavenCentral()</span>
+    <span class="s0">}</span>
+    <span class="s0">dependencies {</span>
+        <span class="s0">classpath(</span><span class="s1">&quot;com.android.tools.build:gradle:8.2.1&quot;</span><span class="s0">)</span>
+        <span class="s0">classpath(</span><span class="s1">&quot;com.google.gms:google-services:4.4.4&quot;</span><span class="s0">)</span>
+        <span class="s0">classpath(</span><span class="s1">&quot;org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.10&quot;</span><span class="s0">)</span>
+    <span class="s0">}</span>
+<span class="s0">}</span>
+
+<span class="s0">plugins {</span>
+    <span class="s0">alias(libs.plugins.android.application) apply </span><span class="s2">false</span>
+    <span class="s0">alias(libs.plugins.kotlin.android) apply </span><span class="s2">false</span>
+<span class="s0">}</span>
+</pre>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "983740364195",
+    "project_id": "pokemon-65f84",
+    "storage_bucket": "pokemon-65f84.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983740364195:android:31c804c0f0ecccc311d616",
+        "android_client_info": {
+          "package_name": "com.example.pokemon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSCmhWYIYipdK4nKjXGf6TX_pffDe_urk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
